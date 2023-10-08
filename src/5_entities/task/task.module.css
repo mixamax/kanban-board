@@ -1,0 +1,23 @@
+.task-cont {
+    width: 100%;
+    min-height: 3rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(220, 216, 216, 0.4); */
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+.task-title {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.task-start {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    font-size: 0.7rem;
+}
